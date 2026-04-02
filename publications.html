@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Publications | Jing Zhang</title>
+    <meta name="description" content="张静（Jing Zhang）论文发表与学术成果。" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">
+            <img id="avatarImg" alt="" />
+          </div>
+          <div class="brand-text">
+            <div class="name" id="name">Jing Zhang</div>
+            <div class="affil" id="affiliation"></div>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="主导航">
+          <a href="./#about" data-i18n="nav.about">关于</a>
+          <a href="./publications.html" data-i18n="nav.publications">论文</a>
+          <a href="./honors.html" data-i18n="nav.honors">荣誉</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-ghost" id="langToggle" type="button" aria-label="切换语言">
+            <span class="btn-icon" aria-hidden="true">中/EN</span>
+            <span class="btn-text" data-i18n="btn.lang">语言</span>
+          </button>
+          <button class="btn btn-ghost" id="themeToggle" type="button" aria-label="切换主题">
+            <span class="btn-icon" aria-hidden="true">◐</span>
+            <span class="btn-text" data-i18n="btn.theme">主题</span>
+          </button>
+          <a class="btn btn-primary" id="cvBtn" href="#" target="_blank" rel="noreferrer">
+            <span class="btn-icon" aria-hidden="true">⬇</span>
+            <span class="btn-text">CV</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" id="publications">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n="section.publications">论文发表</h2>
+          </div>
+
+          <div class="toolbar">
+            <div class="filters" id="pubYearFilters" aria-label="按年份筛选"></div>
+            <div class="search">
+              <label class="sr-only" for="pubSearch">搜索论文</label>
+              <input id="pubSearch" type="search" placeholder="搜索：标题 / 作者 / venue / 关键词" data-i18n-ph="ph.pubSearch" />
+            </div>
+          </div>
+
+          <div class="pub-list" id="pubList"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="muted" id="footerLeft">© 2026 Jing Zhang</div>
+        <div class="muted">
+          <span id="lastUpdated"></span>
+          <span class="sep">·</span>
+          <a class="muted-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+    <script src="./assets/data.js"></script>
+    <script src="./assets/main.js" defer></script>
+  </body>
+</html>
+

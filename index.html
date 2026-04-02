@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>科研主页 | Your Name</title>
+    <meta name="description" content="张静（Jing Zhang）科研个人主页：关于我、研究兴趣、动态与研究方向。" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Your Name - 科研主页" />
+    <meta property="og:description" content="简介、研究方向、论文、项目与联系方式。" />
+    <meta property="og:image" content="./assets/og-card.svg" />
+    <meta property="og:locale" content="zh_CN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Name - 科研主页" />
+    <meta name="twitter:description" content="简介、研究方向、论文、项目与联系方式。" />
+    <meta name="twitter:image" content="./assets/og-card.svg" />
+
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">
+            <img id="avatarImg" alt="" />
+          </div>
+          <div class="brand-text">
+            <div class="name" id="name">Your Name</div>
+            <div class="affil" id="affiliation">School / Lab / University</div>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="主导航">
+          <a href="./#about" data-i18n="nav.about">关于</a>
+          <a href="./publications.html" data-i18n="nav.publications">论文</a>
+          <a href="./honors.html" data-i18n="nav.honors">荣誉</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-ghost" id="langToggle" type="button" aria-label="切换语言">
+            <span class="btn-icon" aria-hidden="true">中/EN</span>
+            <span class="btn-text" data-i18n="btn.lang">语言</span>
+          </button>
+          <button class="btn btn-ghost" id="themeToggle" type="button" aria-label="切换主题">
+            <span class="btn-icon" aria-hidden="true">◐</span>
+            <span class="btn-text" data-i18n="btn.theme">主题</span>
+          </button>
+          <a class="btn btn-primary" id="cvBtn" href="#" target="_blank" rel="noreferrer">
+            <span class="btn-icon" aria-hidden="true">⬇</span>
+            <span class="btn-text">CV</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-left">
+            <h1 class="hero-title" id="heroTitle">你的研究主题一句话</h1>
+            <p class="hero-subtitle" id="heroSubtitle"></p>
+
+            <div class="chips" id="keywords"></div>
+
+            <div class="links" id="socialLinks" aria-label="外部链接"></div>
+
+            <div class="stats" id="highlights" aria-label="亮点数据"></div>
+          </div>
+
+          <div class="hero-right">
+            <div class="card card-spotlight">
+              <div class="card-title" data-i18n="section.news">最近动态</div>
+              <ul class="timeline" id="news"></ul>
+            </div>
+
+            <div class="card card-spotlight">
+              <div class="card-title" data-i18n="section.quick">快速访问</div>
+              <div class="quick" id="quickLinks"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n="section.about">关于我</h2>
+            <p class="muted" id="aboutTagline">一句话定位：研究者/博士生/工程师 + 关注方向。</p>
+          </div>
+          <div class="grid-2 about-grid">
+            <div class="card">
+              <div class="card-title" data-i18n="card.bio">简介</div>
+              <div class="rich" id="bio"></div>
+            </div>
+            <div class="about-side-stack">
+              <div class="card">
+                <div class="card-title" data-i18n="card.interests">研究兴趣</div>
+                <ul class="list" id="interests"></ul>
+              </div>
+              <div class="card">
+                <div class="card-title" data-i18n="card.service">个人服务</div>
+                <ul class="list" id="serviceList"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n="section.research">研究方向</h2>
+          </div>
+          <div class="cards" id="researchAreas"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="muted" id="footerLeft">© 2026 Jing Zhang</div>
+        <div class="muted">
+          <span id="lastUpdated"></span>
+          <span class="sep">·</span>
+          <a class="muted-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="./assets/data.js"></script>
+    <script src="./assets/main.js" defer></script>
+  </body>
+</html>
