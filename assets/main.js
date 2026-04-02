@@ -479,7 +479,6 @@ function renderPubList(pubs, d, state) {
             ${type}
             <span class="sep">·</span>
             <span>${fmtAuthors(p.authors || [], me)}</span>
-            ${p.note && lang === "en" ? `<span class="sep">·</span><span>${escapeHtml(p.note)}</span>` : ""}
           </div>
         </div>
         <div class="pub-badges">${awards}${tags}</div>
