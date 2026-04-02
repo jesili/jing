@@ -86,13 +86,13 @@ window.SITE_DATA = {
       zh: `
         <p><b>张静</b>，女，博士/教授，安徽大学大数据与统计学院副院长。2015 年加入安徽大学信息安全实验室，2017 年赴英国德比大学访学，2018 年赴澳大利亚伍伦贡大学访学；2021 年获得安徽大学博士学位；2022 年被聘为副教授；2024 年被聘为教授。</p>
         <p>主要从事<b>大数据安全、网络安全、密码学及其应用</b>等方面研究，尤其在<b>认证与数据共享</b>方面取得一系列成果：构建新型云边端协同驱动的安全通信架构，设计硬件解耦的高可用隐私保护认证机制，提出面向复杂环境的车路云高效传输协议。</p>
-        <p>已在 TDSC、TIFS、TMC、TVT、TITS、TNSE、TNSM、DASFAA 等重要期刊和国际会议发表论文 40 余篇（含 CCF 推荐 A 类 10 余篇、ESI 高被引论文 3 篇），Google Scholar 引用 2700+。担任中国电子学会网络空间安全专家委员会通信委员，并为 TDSC、TIFS、TMC、TVT、TITS、TNSM、IoTJ、IEEE Communications Letters、Vehicular Communications、ACM Computing Surveys、Information Sciences 等期刊审稿。</p>
+        <p>已在 TDSC、TIFS、TMC、TVT、TITS、TNSE、TNSM、DASFAA 等重要期刊和国际会议发表论文 40 余篇（含 CCF 推荐 A 类 10 余篇、ESI 高被引论文 3 篇），Google Scholar 引用 3500+。担任中国电子学会网络空间安全专家委员会通信委员，并为 TDSC、TIFS、TMC、TVT、TITS、TNSM、IoTJ、IEEE Communications Letters、Vehicular Communications、ACM Computing Surveys、Information Sciences 等期刊审稿。</p>
         <p>入选中国科协/安徽省科协青年人才托举工程，入选全球前 2% 顶尖科学家“年度影响力”榜单（2023、2024、2025）。</p>
       `,
       en: `
         <p><b>Jing Zhang</b> is a Professor (PhD) at Anhui University and serves as Deputy Dean of the School of Big Data and Statistics. She joined the Information Security Lab in 2015, visited the University of Derby (UK) in 2017 and the University of Wollongong (Australia) in 2018, received her PhD in 2021, became an Associate Professor in 2022, and was promoted to Professor in 2024.</p>
         <p>Her research interests include <b>big data security</b>, <b>network security</b>, and <b>applied cryptography</b>, with a focus on <b>authentication and data sharing</b> for VANET/IoT, blockchain applications, edge security, and intrusion detection.</p>
-        <p>She has published 40+ papers in leading venues such as TDSC, TIFS, TMC, TVT, TITS, TNSE, TNSM, and DASFAA, including 10+ CCF-A papers and 3 ESI Highly Cited Papers, with 2700+ citations on Google Scholar. She has been listed in the annual-impact top 2% scientists ranking for 2023, 2024, and 2025.</p>
+        <p>She has published 40+ papers in leading venues such as TDSC, TIFS, TMC, TVT, TITS, TNSE, TNSM, and DASFAA, including 10+ CCF-A papers and 3 ESI Highly Cited Papers, with 3500+ citations on Google Scholar. She has been listed in the annual-impact top 2% scientists ranking for 2023, 2024, and 2025.</p>
       `,
     },
     cvUrl: "./assets/cv.pdf",
